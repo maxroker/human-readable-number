@@ -6,9 +6,6 @@ module.exports = function toReadable(number) {
 
     if (arrNum.length === 3) {
         switch (arrNum[0]) {
-            // case "0":
-            //     humanReadable += "zero";
-            //     break;
             case "1":
                 humanReadable += "one";
                 break;
